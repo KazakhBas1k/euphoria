@@ -1,0 +1,12 @@
+.lang {
+    select {
+        border: 0;
+        font-size: 18px;
+        font-weight: 400;
+        height: 24px;
+    }
+
+    select:focus {
+        outline: 0;
+    }
+}

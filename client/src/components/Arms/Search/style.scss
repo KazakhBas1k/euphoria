@@ -1,0 +1,24 @@
+.search {
+    display: inline-flex;
+    border-radius: 8px;
+    padding: 12px 48px;
+    justify-content: space-between;
+    align-items: center;
+    background: #F6F6F6;
+
+    input {
+        width: 56px;
+        height: 22px;
+        border: 0;
+        background: #F6F6F6;
+        color: #807D7E;
+        font-size: 18px;
+        transition: all .2s ease;
+    }
+
+    input:focus {
+        transition: all .2s ease;
+        width: 200px;
+        outline: 0;
+    }
+}

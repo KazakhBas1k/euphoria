@@ -1,0 +1,19 @@
+.logo {
+    position: relative;
+
+    p {
+        color: #3C4242;
+        font-family: Mintaka;
+        font-size: 34.064px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .logo_subtext {
+        display: flex;
+        position: absolute;
+        right: 3px;
+        bottom: 3px;
+    }
+}

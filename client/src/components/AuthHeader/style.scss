@@ -1,8 +1,29 @@
 header {
     margin: 35px 0 31px 0 !important;
-}
 
-nav {
-    display: flex;
-    justify-content: space-between;
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        .header_buttons {
+            display: flex;
+            gap: 29px;
+            .button {
+                padding: 12px 48px;
+            }
+
+            .button:nth-child(1) {
+                border: 0;
+                color: #fff;
+                background: #8A33FD;
+            }
+
+            .button:nth-child(2) {
+                border: 1px solid #3C4242;
+                color: #8A33FD;
+                background: #fff;
+            }
+        }
+    }
 }
