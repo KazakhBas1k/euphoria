@@ -1,0 +1,105 @@
+.sign_in {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    .link {
+        color: #3C4242;
+        font-size: 16px;
+        text-align: right;
+        font-weight: 400;
+        text-decoration-line: underline;
+    }
+
+    .another_auth {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        button {
+            width: 100%;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 500;
+        }
+    }
+    
+    .or_line {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        span {
+            width: 247px;
+            height: 2px;
+            background: rgba(102, 102, 102, 0.25);
+        }
+
+        p {
+            color: #666;
+            font-family: Core Sans C;
+            font-size: 18px;
+            font-weight: 400;
+        }
+    }
+
+    .auth_form {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        color: #3C4242;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 0.36px;  
+
+        .input {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        
+            .hide_show {
+                img {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+
+            input {
+                border-radius: 8px;
+                border: 1px solid #3C4242;
+                height: 58px;
+                padding: 15px;
+                font-size: 30px;
+            }
+    
+            input:focus {
+                outline: 0;
+            } 
+
+            .label {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                button {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    background: #fff;
+                    border: 0;
+                    color: #807D7E;
+                    text-align: right;
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+    .bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
