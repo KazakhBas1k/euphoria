@@ -1,7 +1,7 @@
-import LanguageSelect from "../LanguageSelect/LanguageSelect";
+import LanguageSelect from "../Arms/LanguageSelect/LanguageSelect";
 import Search from "../Arms/Search/Search";
 import Button from "../Arms/Button/Button";
-import Logo from "../Logo/Logo";
+import Logo from "../Arms/Logo/Logo";
 import "./style.scss";
 
 export default function AuthHeader() {
